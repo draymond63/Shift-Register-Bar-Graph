@@ -1,5 +1,7 @@
 # Shift-Register-Bar-Graph
 An assembly program that manipulates a shift register, whose output leads to an LED bar graph.
+The first pattern increments the LEDs. The next is a binary decrementing pattern. A switch decides 
+which animation to show.
 
 The shift register is a serial-to-parallel IC with three main control pins: latch, data, and clock. 
 The latch controls whether the chip is reading or presenting the data. To beginning reading, this pin 
